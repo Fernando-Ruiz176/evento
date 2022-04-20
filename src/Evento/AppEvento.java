@@ -102,7 +102,7 @@ public class AppEvento {
 			entradasDisponibles--;
 			}
 		}
-		System.out.println("Entradas disponibles: "+ ""+ entradasDisponibles);
+		System.out.println("Entradas disponibles: \n"+ ""+ entradasDisponibles);
 		
 	}
 	
@@ -111,7 +111,7 @@ public class AppEvento {
 		for (Venta venta : ventas) {
 			valorTotal += venta.getEntrada().getValor();
 		}
-		System.out.println("Recaudaciones: "+valorTotal);
+		System.out.println("Recaudaciones: \n"+valorTotal);
 		
 	}
 	
